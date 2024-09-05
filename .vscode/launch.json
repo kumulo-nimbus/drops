@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Package",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${fileDirname}",
+            "env": {
+                "PRIVATE_KEY_PATH": "pk.pem",
+                "APP_ID": "978668",
+                "SECRET": "test1",
+                "INSTALLTION_ID": "54134569"
+            }
+        }
+    ]
+}
